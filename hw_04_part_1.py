@@ -1,6 +1,3 @@
-from lief import corrupted
-
-
 # the function is to calculate total and average salary
 
 def total_salary(path):
