@@ -10,7 +10,6 @@ def get_cats_info(path): #Function is to analys and convert data into good view
             cats_info = [dict(zip(keys, sublist)) for sublist in cats_info] # convert list of lists to a list of dictionaries
             print(cats_info)
             return cats_info
-
     except FileNotFoundError:
         print(f"File {path} is not found.")
     except OSError:
